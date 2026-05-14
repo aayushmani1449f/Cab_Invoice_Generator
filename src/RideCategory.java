@@ -1,4 +1,4 @@
-package com.cabinvoice;
+
 
 public enum RideCategory {
     NORMAL(10.0, 1, 5.0),
