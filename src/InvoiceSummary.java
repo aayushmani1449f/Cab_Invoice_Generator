@@ -1,4 +1,4 @@
-package com.cabinvoice;
+
 
 public class InvoiceSummary {
     public int numOfRides;
