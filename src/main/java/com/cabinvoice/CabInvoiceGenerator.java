@@ -13,7 +13,7 @@ public class CabInvoiceGenerator {
     public double calculateFare(Ride[] rides) {
         double totalFare = 0;
         for (Ride ride : rides) {
-            totalFare += this.calculateFare(ride.distance, ride.time);
+            totalFare += ride.category.calculateCategoryFare(ride.distance, ride.time);
         }
         return totalFare;
     }
